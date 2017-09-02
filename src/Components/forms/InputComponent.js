@@ -1,0 +1,22 @@
+/**
+ * Created by ravindras on 02/09/17.
+ */
+
+import React from 'react';
+const InputComponent = ({onChange, label, inputValue, placeholder}) => {
+
+  return (
+  <div>
+    <label htmlFor={label}>First Name</label>
+    <input type="text"
+           name={label}
+           className="form-control"
+           placeholder={placeholder}
+           value={inputValue}
+           onChange={onChange}
+    />
+  </div>
+  )
+};
+
+export default  InputComponent;
