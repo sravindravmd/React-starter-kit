@@ -1,7 +1,3 @@
-/**
- * Created by ravindras on 29/08/17.
- */
-
 import React from "react";
 import { Link } from 'react-router';
 
